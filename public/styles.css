@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Seção principal - topo */
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 60px 20px;
+}
+
+.nav-container .img {
+    width: 400px;
+}
+
+h1 {
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+h2 {
+    color: rgba(201, 243, 29, 1);
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-container .p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: rgba(201, 243, 29, 1);
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Seção de cards */
+h3 {
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    background-color: rgba(201, 243, 29, 1);
+}
+
+.cards-container {
+    background-color: rgba(201, 243, 29, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 60px 20px;
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgba(201, 243, 29, 1);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin-top: 35px;
+}
+
+h4 {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.p2 {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Seção Challenge */
+.challenge-container {
+    background-color: black;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: stretch;
+}
+
+.challenge-container .img {
+    width: 400px;
+    height: 500px;
+    margin-left: 50px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.challenge-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    gap: 20px;
+    max-width: 600px;
+}
+
+.challenge-container h5 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+.challenge-container p {
+    color: white;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.inscrever-btn {
+    display: inline-block;
+    background-color: rgba(201, 243, 29, 1);
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+/*Seção do aprender*/
+.aprender {
+    background-color: rgba(201, 243, 29, 1);
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.aprender-box {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.aprender-titulo {
+    background-color: #000;
+    padding: 30px;
+    text-align: center;
+}
+
+.aprender-titulo h6 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.aprender-corpo {
+    background-color: #fff;
+    padding: 30px 40px;
+    margin-bottom: 0;
+}
+
+.aprender-corpo ol {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    padding-left: 20px;
+}
+
+.aprender-corpo ol li {
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+}
